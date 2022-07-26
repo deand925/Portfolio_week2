@@ -10,8 +10,10 @@ CSS
 JavaScript
 
 ## Website
+https://deand925.github.io/Portfolio_week2/
 
-https://github.com/deand925/Horiseon
+## Github
+https://github.com/deand925/Portfolio_week2.git
 
 ## Images
 
