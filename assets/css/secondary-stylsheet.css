@@ -1,0 +1,29 @@
+body {
+    color: white;
+}
+.res-title {
+    width: 100%
+}
+
+.title-sec {
+    padding: 50px;
+    text-align: center;
+    border-bottom: 10px solid orange;
+}
+
+.personal {
+    text-align: center;
+    border-bottom: 5px solid orange;
+    padding: 20px;
+}
+
+.h2-el {
+    padding: 20px;
+    flex-direction: column;
+}
+
+.bullet-el {
+    list-style-type: circle; 
+    padding: 10px;
+    font-size: 20px;
+}

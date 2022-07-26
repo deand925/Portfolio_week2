@@ -1,51 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
     <title>Dean Dunivan Portfolio</title>
 </head>
+
 <body>
     <header>
-        <h2>Dean Dunivan Portfolio</h2>
-        <uL>
-            <li> <a href="#about-me">About Me</a> </li>
-            <li> <a href="#work">Work</a> </li>
-            <li> <a href="#contact">Contact</a> </li>
-            <li> <a href="#resume">Resume</a> </li>
-        </uL>
+        <h1>Dean Dunivan Portfolio</h1>
+        <nav>
+            <ul>
+                <li> <a href="#about-me" class="nav-el">About Me</a> </li>
+                <li> <a href="#work" class="nav-el">Work</a> </li>
+                <li> <a href="#contact" class="nav-el">Contact</a> </li>
+                <li> <a href="./resume.html" class="nav-el">Resume</a> </li>
+            </ul>
+        </nav>
+        <h2>Never Stop Learning!</h2>
     </header>
     <section>
-        <h2>Never Stop Learning!</h2>
-        <img src="./assets/images/Dean Pic.jpeg">
+        <div class="personal-info">
+            <div class="about" id="about-me">
+                <h3>About Me</h3>
+                <p>I am an Oregon based developer that recently completed the University of Oregon full stack coding
+                    bootcamp. After graduating from college at San Francisco State University, I worked as an Operations
+                    Manager for a financial startup in the San Francisco Bay Area. While working at SmartPay, I worked
+                    hand and hand with the product developers to create/troubleshoot web applications. It was during
+                    this
+                    time I realized that I wanted to transition careers to a full stack developer. With my experience as
+                    an
+                    Operations Manger and new found knowledge of full stack coding gives me a well-rounded perspective
+                    of all aspects of a project.
+                </p>
+            </div>
+            <img src="./assets/images/Dean Pic.jpeg">
+        </div>
     </section>
     <main>
-        <div class="" id="about-me">
-           <h3>About Me</h3> 
-           <p>I am an Oregon based developer that recently completed the University of Oregon full stack coding bootcamp. After graduating from college at San Francisco State University, I worked as an Operations Manager for a financial startup in the San Francisco Bay Area. While working at SmartPay, I worked hand and hand with the product developers to create/troubleshoot web applications. It was during this time I realized that I wanted to transition careers to a full stack developer. With my experience as an Operations Manger and new found knowledge of full stack coding gives me a well-rounded perspective of all aspects of a project.</p>
-        </div>
-        <div class="" id="work">
+        <div class="work-title" id="work">
             <h3>Work</h3>
         </div>
-        <div class="">
-            <a href=""></a>
-            <a href=""></a>
-            <a href=""></a>
-            <a href=""></a>
-            <a href=""></a>
+        <div class="work-container">
+            <a href="https://deand925.github.io/run-buddy2/" class="img-1 work-img">
+                <h4>Run Buddy</h4>
+                <span>HTML/CSS</span>
+            </a>
+            <div class="img-row">
+                <a href="" class="img-2 work-img">
+                    <h4>Project 2</h4>
+                </a>
+                <a href="" class="img-3 work-img">
+                    <h4>Project 3</h4>
+                </a>
+            </div>
+            <div class="img-row">
+                <a href="" class="img-4 work-img">
+                    <h4>Project 4</h4>
+                </a>
+                <a href="" class="img-5 work-img">
+                    <h4>Project 5</h4>
+                </a>
+            </div>
         </div>
     </main>
-    <footer class="" id="contact">
+    <footer class="foot" id="contact">
         <h4>Contact</h4>
-        <div>
+        <address>
             <ul>
-                <li>Phone</li>
-                <li>Email</li>
-                <li>Github</li>
+                <li><a href="tel:+9254089687">Call at 925-408-9687</a></li>
+                <li><a href="mailto:Deand925@gmail.com">Email at Deand925@gmail.com</a></li>
+                <li><a href="https://github.com/deand925">Checkout my Github</a></li>
             </ul>
-        </div>
+        </address>
     </footer>
 </body>
+
 </html>
