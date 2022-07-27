@@ -10,10 +10,10 @@ CSS
 JavaScript
 
 ## Website
-https://deand925.github.io/Portfolio_week2/
+https://deand925.github.io/Professional_Portfolio/
 
 ## Github
-https://github.com/deand925/Portfolio_week2.git
+https://github.com/deand925/Professional_Portfolio.git
 
 ## Images
 
